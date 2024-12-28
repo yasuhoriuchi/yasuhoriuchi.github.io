@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://horiuchi.page',
+  site: 'https://horiuchi.page',
 	integrations: [mdx(), sitemap()],
 });
