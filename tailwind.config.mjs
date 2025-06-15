@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Geist Sans", ...defaultTheme.fontFamily.sans],
-        mono: ["Geist Mono", ...defaultTheme.fontFamily.mono],
+        sans: ['"Noto Sans Japanese"', "Geist Sans", ...defaultTheme.fontFamily.sans],
+        mono: ['"Noto Serif Japanese"', "Geist Mono", ...defaultTheme.fontFamily.mono],
       },
     },
   },
